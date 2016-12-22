@@ -1,0 +1,177 @@
+/*!
+ * Start Bootstrap - Simple Sidebar (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+ body {
+    overflow-x: hidden;
+    font-family: 'open sans';
+    font-weight: 300;
+ }
+
+ .navbar-static-top {
+    margin-bottom: 0px;
+}
+
+
+h1, h2, h3, h4, h5, h6 {font-weight: 300}
+
+button.navbar-toggle {
+    float: left;
+    margin-left: 10px;
+}
+
+.footer {background-color: #333;
+color:#777;
+
+font-size: 13px;
+}
+
+
+.footer h2 {font-size: 14px; font-weight: 600; color: #999; margin-bottom: 20px}
+
+
+.seccio{padding:50px 0; border-bottom: 1px solid #ccc}
+
+
+.w100{width: 100%}
+
+
+.jumbotron {padding:100px 0;}
+
+
+
+.jumbotron h1 {margin-bottom: 30px; font-size: 50px}
+.porque h3 {
+    font-size: 17px;
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+
+.seccio.bg {
+    background: #448aff;
+    color: #fff;
+    text-align: center;
+    padding: 70px 0
+}
+
+
+.panel.panel-default.cards {
+    padding: 40px 60px;
+    margin-bottom: 50px;
+}
+
+.cards h2 {font-size: 18px; margin-top: 0px; margin-bottom: 40px; font-weight: 300}
+
+li {
+    list-style: none;
+}
+
+
+ul.lista {
+    padding-left: 0px;
+}
+
+
+.lista li {margin-bottom: 25px}
+
+
+i.fa.fa-check {
+    color: #168519;
+    margin-right: 6px;
+}
+
+.btn-success {
+    background: #00c853;
+    text-transform: uppercase;
+    font-size: 14px;
+    border-radius: 0px;
+    border: none;
+}
+
+.porque h5 {
+    font-size: 25px;
+    margin-top: 0px;
+    margin-bottom: 0px !important;
+    color:#f90;
+}
+
+
+.form-control {
+    height: 50px;
+    border-radius: 0px;
+    box-shadow: none;
+}
+
+
+
+/* DESKTOP */
+
+@media (min-width: 979px) {
+
+img.destacada {
+    width: 800px;
+    position: absolute;
+    margin-top: -120px;
+    margin-left: -79px;
+}	
+
+.jumboimatge{    height: 450px;
+    margin-left: -280px;}
+
+.jumbotron .col-md-5 {
+    margin-top: 80px;
+}
+
+
+
+}
+
+
+/* PHONE */
+
+
+@media (max-width: 767px) {
+
+div#navbar{
+    width: 100%;
+
+    left: 0px;
+    margin: 0 auto;
+}
+
+
+.jumbotron .row {margin-right: 0px}
+
+.jumbotron .col-md-5 {
+    padding: 30px !important;
+}
+
+.jumbotron h1 {font-size: 30px !important; margin-top: 0px !important}
+.col-md-5 .text-center {
+    margin-bottom: 49px !important;
+}
+
+.porque .col-md-4 {
+    margin-bottom: 60px;
+}
+
+.panel.panel-default.cards {
+    padding: 30px 30px;
+    margin-bottom: 50px;
+}
+
+.jumboimatge{    width: 100%;
+}
+
+img.destacada {
+    width: 100%;
+}
+
+a.navbar-brand {
+    font-size: 15px;
+}
+
+
+}
